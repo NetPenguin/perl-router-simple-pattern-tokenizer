@@ -1,3 +1,5 @@
+### /home/k-ta/.gitignore-boilerplates/Perl.gitignore
+
 blib/
 .build/
 _build/
@@ -14,3 +16,46 @@ META.yml
 MYMETA.yml
 nytprof.out
 pm_to_blib
+
+### 
+
+local/
+.carton
+
+
+### /home/k-ta/.gitignore-boilerplates/Global/Emacs.gitignore
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+
+### /home/k-ta/.gitignore-boilerplates/Global/Windows.gitignore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+
+### /home/k-ta/.gitignore-boilerplates/Global/Linux.gitignore
+
+.*
+!.gitignore
+*~
+
+
